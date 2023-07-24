@@ -1,0 +1,222 @@
+@media screen and (max-width: 500px) and (max-height: 650px)
+{
+
+.main h1 {
+    font-size: 60px;
+    padding-top: 15%;
+    padding-bottom: 5%;
+}
+.button, .a button {
+    background-color: var(--x-color);
+    border-radius: 2px;
+    border: 2px solid var(--t-color);
+    width: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    padding: .8%;
+    cursor: pointer;
+    color: var(--t-color);
+}
+
+.main h2 {
+    font-size: 50px;
+    padding-top: 7%;
+}
+
+.main h3 {
+    font-size: 40px;
+    padding-top: 8%;
+}
+
+.footer {
+    background-color: var(--b1-color);
+    padding: 1rem 9%;
+    text-align: center;
+    z-index: 999;
+    position: sticky;
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.06);
+    padding-top: 2%;
+}
+
+.bt3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
+.home {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    background-color: var(--b1-color);
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+.home_1 {
+    width: 50%;
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    padding-left: 35%;
+    padding-top: 5% ;
+    padding-bottom: 5%;
+}
+
+.home_2 h6 {
+    font-size: 40px;
+    
+    padding-bottom: 5%;
+}
+.home_2 {
+    width: 100%;
+}
+
+
+}
+
+
+@media screen and (max-width: 480px) and (max-height: 650px)
+{
+    .bt3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8%;
+        padding-bottom: 10%;
+    }
+    
+
+}
+
+@media screen and (max-width: 450px) and (max-height: 650px)
+{
+    .bt3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8%;
+        padding-bottom: 12%;
+    }
+    .home_1 {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(3,10vw);
+        grid-template-columns: repeat(3,10vw);
+        padding-left: 35%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .footer {
+        background-color: var(--b1-color);
+        padding: 1rem 9%;
+        text-align: center;
+        z-index: 999;
+        position: sticky;
+        box-shadow: 0 -5px 15px rgba(0,0,0,0.06);
+        padding-top: 8%;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 420px) and (max-height: 650px)
+{
+    .bt3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8%;
+        padding-bottom: 12%;
+    }
+    
+    .button, .a button {
+        background-color: var(--x-color);
+        border-radius: 2px;
+        border: 2px solid var(--t-color);
+        width: 35%;
+        font-size: 20px;
+        font-weight: 700;
+        padding: .8%;
+        cursor: pointer;
+        color: var(--t-color);
+    }
+    
+}
+
+
+
+@media screen and (max-width: 380px) and (max-height: 650px)
+{
+    .bt3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8%;
+        padding-bottom: 20%;
+    }
+    
+    .button, .a button {
+        background-color: var(--x-color);
+        border-radius: 2px;
+        border: 2px solid var(--t-color);
+        width: 35%;
+        font-size: 20px;
+        font-weight: 700;
+        padding: .8%;
+        cursor: pointer;
+        color: var(--t-color);
+    }
+    .main h1 {
+        font-size: 60px;
+        padding-top: 20%;
+        padding-bottom: 5%;
+    }
+    .home_1 {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(3,10vw);
+        grid-template-columns: repeat(3,10vw);
+        padding-left: 35%;
+        padding-top: 8%;
+        padding-bottom: 10%;
+    }
+}
+
+
+@media screen and (max-width: 350px) and (max-height: 650px)
+{
+    .bt3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 8%;
+        padding-bottom: 25%;
+    }
+    
+    .button, .a button {
+        background-color: var(--x-color);
+        border-radius: 2px;
+        border: 2px solid var(--t-color);
+        width: 40%;
+        font-size: 20px;
+        font-weight: 700;
+        padding: .8%;
+        cursor: pointer;
+        color: var(--t-color);
+    }
+    .home_1 {
+        width: 100%;
+        display: grid;
+        grid-template-rows: repeat(3,10vw);
+        grid-template-columns: repeat(3,10vw);
+        padding-left: 35%;
+        padding-top: 12%;
+        padding-bottom: 10%;
+    }
+    
+}
